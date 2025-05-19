@@ -1,6 +1,6 @@
 {
-  "name": "obsidian-anki",
-  "version": "1.0.0",
+  "name": "anki-cards",
+  "version": "1.0.1",
   "main": "src/main.ts",
   "scripts": {
     "dev": "rollup -c -w",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/name/obsidian-anki.git"
+    "url": "git+https://github.com/name/anki-cards.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/name/obsidian-anki/issues"
+    "url": "https://github.com/name/anki-cards/issues"
   },
-  "homepage": "https://github.com/name/obsidian-anki#readme",
+  "homepage": "https://github.com/name/anki-cards#readme",
   "description": "",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^28.0.3",

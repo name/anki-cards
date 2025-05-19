@@ -1,9 +1,9 @@
 {
-  "id": "obsidian-anki",
-  "name": "Obsidian Anki",
-  "version": "1.0.0",
+  "id": "anki-cards",
+  "name": "Anki Cards",
+  "version": "1.0.1",
   "minAppVersion": "0.15.0",
-  "description": "A plugin to bring Anki to Obsidian.",
+  "description": "A plugin to integrate Anki-style flashcards and spaced repetition directly into your notes.",
   "author": "char",
   "authorUrl": "https://github.com/name",
   "isDesktopOnly": false

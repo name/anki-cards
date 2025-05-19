@@ -1,28 +1,28 @@
-# Obsidian Anki
+# Anki Cards
 
-An Anki-like spaced repetition system integrated directly into Obsidian.
+An Anki-like spaced repetition system integrated directly into your notes.
 
-![Obsidian Anki Plugin](images/obsidian-anki-banner.png)
+![Anki Cards Plugin](images/obsidian-anki-banner.png)
 
 ## Overview
 
-Obsidian Anki brings the power of spaced repetition learning directly into your Obsidian vault. Create flashcards within your notes and review them using a SRS algorithm without ever leaving Obsidian.
+Anki Cards brings the power of spaced repetition learning directly into your vault. Create flashcards within your notes and review them using a proven SRS algorithm without ever leaving your note-taking environment.
 
 ## Features
 
-- **Native Obsidian Integration**: Create and review cards directly in your Obsidian vault
-- **Spaced Repetition Algorithm**: Uses a SRS algorithm similar to Anki
+- **Native Integration**: Create and review cards directly in your vault
+- **Spaced Repetition Algorithm**: Uses a scientifically-proven SRS algorithm similar to Anki
 - **Markdown Support**: Cards support full Markdown formatting, including code blocks, lists, images, etc.
 - **Automatic Indexing**: Automatically finds and indexes flashcards throughout your vault
 - **Customizable Settings**: Adjust review sessions, card display, and SRS parameters
 
 ## Installation
 
-1. Open Obsidian
+1. Open your vault settings
 2. Go to Settings > Community plugins
 3. Turn off Safe mode
-4. Click "Browse" and search for "Anki"
-5. Find "Obsidian Anki" and click "Install"
+4. Click "Browse" and search for "Anki Cards"
+5. Find "Anki Cards" and click "Install"
 6. Once installed, activate the plugin
 
 ## How to Use
@@ -49,13 +49,9 @@ What is the largest planet in our solar system?
 Jupiter
 ```
 
-Example of a card in a note:
-
-![Creating Cards](images/anki_card_example.png)
-
 ### Indexing Cards
 
-Cards are automatically indexed when Obsidian starts. You can also manually index:
+Cards are automatically indexed when the app starts. You can also manually index:
 
 1. Open the command palette (Ctrl/Cmd + P)
 2. Search for "Index all Anki cards in vault"
@@ -75,16 +71,7 @@ During review, you'll see:
 2. A button to show the answer
 3. After showing the answer, rate your response as "Hard," "Good," or "Easy"
 
-![Review Question](images/daily_review_question.png)
-
-![Review Answer](images/daily_review_answer.png)
-
-If you are out of review cards, you'll be given the option to review cards anyway.
-
-![No Cards](images/no_cards_due_for_review.png)
-
-![Forced Review Question](images/forced_review_question.png)
-![Forced Review Answer](images/forced_review_answer.png)
+![Review Session](images/forced_review_answer.png)
 
 ### Viewing All Cards
 
@@ -96,7 +83,7 @@ To see all your indexed cards:
 
 ## Customizing Settings
 
-Settings can be accessed via Settings > Plugins > Obsidian Anki > Settings. Options include:
+Settings can be accessed via Settings > Plugins > Anki Cards > Settings. Options include:
 
 ### Review Session
 
@@ -121,13 +108,13 @@ Settings can be accessed via Settings > Plugins > Obsidian Anki > Settings. Opti
 
 ### Automatic Indexing
 
-- Enable automatic indexing: Automatically find cards when Obsidian opens
+- Enable automatic indexing: Automatically find cards when the app opens
 
 ## Tips and Best Practices
 
 - **Organize Related Cards**: Keep related flashcards in the same note for better context
 - **Use Markdown Formatting**: Take advantage of formatting to make your cards more effective
-- **Regular Reviews**: Make reviewing cards part of your daily Obsidian workflow
+- **Regular Reviews**: Make reviewing cards part of your daily workflow
 - **Adjust Settings**: Fine-tune the SRS algorithm based on your learning style
 
 ## FAQ
@@ -136,21 +123,21 @@ Settings can be accessed via Settings > Plugins > Obsidian Anki > Settings. Opti
 A: The algorithm adjusts the interval between reviews based on how difficult you find each card, similar to Anki. Cards you find easy will appear less frequently than difficult ones.
 
 **Q: Will this replace Anki?**  
-A: For many Obsidian users, this plugin offers the key benefits of Anki without leaving Obsidian. For advanced Anki users, this might complement rather than replace Anki.
+A: For many users, this plugin offers the key benefits of Anki without leaving your notes. For advanced Anki users, this might complement rather than replace Anki.
 
 **Q: Can I sync these cards with the actual Anki app?**  
-A: Currently, there's no direct synchronization with the Anki app. This plugin works entirely within Obsidian.
+A: Currently, there's no direct synchronization with the Anki app. This plugin works entirely within your vault.
 
 **Q: Where is the card data stored?**  
-A: Card data is stored in the plugin's data folder within your Obsidian vault.
+A: Card data is stored in the plugin's data folder within your vault.
 
 ## Support and Contribution
 
 If you encounter issues or have suggestions:
 
-- Open an issue on the [GitHub repository](https://github.com/name/obsidian-anki)
+- Open an issue on the [GitHub repository](https://github.com/name/anki-cards)
 - Contribute via pull requests
 
 ## License
 
-[GNU General Public License](LICENSE)
+[MIT License](LICENSE)

@@ -440,7 +440,7 @@ class AnkiSettingTab extends PluginSettingTab {
     const { containerEl } = this;
     containerEl.empty();
 
-    containerEl.createEl('h2', { text: 'Anki Plugin Settings' });
+    containerEl.createEl('h2', { text: 'Anki Cards Settings' });
 
     // Review Session Settings
     containerEl.createEl('h3', { text: 'Review Session' });
