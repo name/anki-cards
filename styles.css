@@ -1,0 +1,153 @@
+/* Card Review Styles */
+.card-question,
+.card-answer {
+  margin: 15px 0;
+}
+
+.card-content {
+  padding: 15px;
+  border-radius: 5px;
+  background-color: var(--background-secondary);
+  margin-top: 5px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  line-height: 1.5;
+}
+
+.card-source {
+  margin-bottom: 15px;
+  font-size: 0.85em;
+  color: var(--text-muted);
+}
+
+.rating-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.rating-container h3 {
+  margin-bottom: 10px;
+}
+
+.rating-button {
+  margin: 0 8px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.rating-hard {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.rating-good {
+  background-color: #3498db;
+  color: white;
+}
+
+.rating-easy {
+  background-color: #2ecc71;
+  color: white;
+}
+
+/* Dark mode button variants */
+.rating-button.dark-mode.rating-hard {
+  background-color: #a93226;
+  color: white;
+}
+
+.rating-button.dark-mode.rating-good {
+  background-color: #2874a6;
+  color: white;
+}
+
+.rating-button.dark-mode.rating-easy {
+  background-color: #1e8449;
+  color: white;
+}
+
+/* Show Answer Button Styling */
+.show-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.show-answer-button {
+  background-color: var(--interactive-accent);
+  color: var(--text-on-accent);
+  margin: 0 8px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  min-width: 150px;
+  font-size: 1.1em;
+}
+
+.show-answer-button:hover {
+  background-color: var(--interactive-accent-hover);
+}
+
+/* Card List Styles */
+.cards-list-container {
+  max-height: 500px;
+  overflow-y: auto;
+  margin-top: 15px;
+}
+
+.card-list-item {
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: var(--background-secondary);
+}
+
+.card-list-header {
+  margin-bottom: 5px;
+}
+
+.card-list-details {
+  font-size: 0.85em;
+  color: var(--text-muted);
+}
+
+/* Modal size adjustments */
+.modal {
+  max-width: 600px;
+  width: 80%;
+}
+
+/* Settings Styles */
+.setting-item-description {
+  font-size: 0.8em;
+  color: var(--text-muted);
+}
+
+.slider-thumb-highlight {
+  background-color: var(--interactive-accent) !important;
+}
+
+.no-cards-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.option-button {
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.option-button:hover {
+  background-color: var(--interactive-hover);
+}

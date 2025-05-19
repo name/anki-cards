@@ -1,0 +1,35 @@
+{
+  "name": "obsidian-anki",
+  "version": "1.0.0",
+  "main": "src/main.ts",
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c",
+    "copy": "node copy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/name/obsidian-anki.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/name/obsidian-anki/issues"
+  },
+  "homepage": "https://github.com/name/obsidian-anki#readme",
+  "description": "",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "rollup": "^4.41.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "obsidian": "^1.8.7",
+    "path": "^0.12.7",
+    "tslib": "^2.8.1"
+  }
+}
