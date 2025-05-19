@@ -31,19 +31,13 @@ Obsidian Anki brings the power of spaced repetition learning directly into your 
 
 Create flashcards in your notes using code blocks with the `anki` language identifier:
 
-```plaintext
-
 ```anki
 What is the capital of France?
 ?
 Paris
 ```
 
-```
-
 You can add multiple cards in a single block by separating them with blank lines:
-
-```plaintext
 
 ```anki
 What is the capital of France?
@@ -55,7 +49,7 @@ What is the largest planet in our solar system?
 Jupiter
 ```
 
-```
+![Creating Cards](images/anki_card_example.png)
 
 ### Indexing Cards
 
@@ -74,6 +68,7 @@ There are multiple ways to start a review session:
 - Use the hotkey (if configured)
 
 During review, you'll see:
+
 1. The question
 2. A button to show the answer
 3. After showing the answer, rate your response as "Hard," "Good," or "Easy"
@@ -102,23 +97,28 @@ To see all your indexed cards:
 Settings can be accessed via Settings > Plugins > Obsidian Anki > Settings. Options include:
 
 ### Review Session
+
 - Cards per session: Number of cards to review at once
 - New cards per day: Maximum new cards to introduce daily
 - Reviews per day: Maximum review cards to show daily
 
 ### Card Display
+
 - Show source file: Display the file where the card originated
 - Enable markdown rendering: Render markdown in cards (recommended)
 
 ### Spaced Repetition (Advanced)
+
 - Easy bonus: Multiplier for "Easy" responses
 - Interval modifier: Global multiplier for all intervals
 - Maximum interval: Longest possible interval between reviews
 
 ### Interface
+
 - Dark mode buttons: Use darker colors for rating buttons
 
 ### Automatic Indexing
+
 - Enable automatic indexing: Automatically find cards when Obsidian opens
 
 ## Tips and Best Practices
@@ -145,6 +145,7 @@ A: Card data is stored in the plugin's data folder within your Obsidian vault.
 ## Support and Contribution
 
 If you encounter issues or have suggestions:
+
 - Open an issue on the [GitHub repository](https://github.com/name/obsidian-anki)
 - Contribute via pull requests
 
