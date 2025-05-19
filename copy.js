@@ -5,7 +5,7 @@ const path = require('path');
 const sourceDir = path.join(__dirname);
 
 // Define target directory (your Obsidian plugins folder)
-const targetDir = path.join('C:', 'Users', 'char', 'Documents', 'GitHub', 'Rodin', '.obsidian', 'plugins', 'obsidian-anki');
+const targetDir = path.join('C:', 'Users', 'char', 'Documents', 'GitHub', 'Rodin', '.obsidian', 'plugins', 'anki-cards');
 
 // Ensure the target directory exists
 if (!fs.existsSync(targetDir)) {
