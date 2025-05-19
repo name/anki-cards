@@ -49,6 +49,8 @@ What is the largest planet in our solar system?
 Jupiter
 ```
 
+Example of a card in a note:
+
 ![Creating Cards](images/anki_card_example.png)
 
 ### Indexing Cards
